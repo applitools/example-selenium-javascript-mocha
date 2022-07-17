@@ -22,7 +22,7 @@ To run this example project, you'll need:
 5. An up-to-date version of [Google Chrome](https://www.google.com/chrome/downloads/).
 6. A corresponding version of [ChromeDriver](https://chromedriver.chromium.org/downloads).
 
-The main test case is [`AcmeBankTests.test.js`](https://github.com/IdosApplitools/tutorial-selenium-javascript-basic/blob/redevelop/test/example/AcmeBankTests.test.js).
+The main test case is [`AcmeBankTests.test.js`](https://github.com/IdosApplitools/tutorial-selenium-javascript-ultrafastgrid/blob/redevelop/test/example/AcmeBankTests.test.js).
 
 To execute tests, set the `APPLITOOLS_API_KEY` environment variable
 to your [account's API key](https://applitools.com/tutorials/getting-started/setting-up-your-environment.html),
