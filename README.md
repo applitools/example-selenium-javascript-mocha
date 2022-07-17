@@ -1,4 +1,4 @@
-# Applitools Example: Selenium JavaScript Mocha with the Classic Runner
+# Applitools Example: Selenium JavaScript Mocha with the Ultrafast Grid
 
 This is the example project for the [Selenium JavaScript tutorial](https://applitools.com/tutorials/selenium-javascript.html).
 It shows how to start automating visual tests
