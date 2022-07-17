@@ -1,15 +1,36 @@
-# Applitools Tutorial - Selenium JavaScript Ultrafast Grid
+# Applitools Example: Selenium JavaScript Mocha with the Classic Runner
 
-Get started with Applitools Eyes visual testing with this example of using Selenium JavaScript and the [Eyes Selenium JavaScript SDK](https://www.npmjs.com/package/@applitools/eyes-selenium).
+This is the example project for the [Selenium JavaScript tutorial](https://applitools.com/tutorials/selenium-javascript.html).
+It shows how to start automating visual tests
+with the [Applitools Eyes](https://applitools.com/platform/eyes/) and the [Ultrafast Grid](https://applitools.com/platform/ultrafast-grid/) using [Selenium WebDriver](https://www.selenium.dev/) in JavaScript.
 
-Learn more about how to install and start this project with our [Selenium JavaScript tutorial](https://applitools.com/tutorials/selenium-javascript.html)!
+It uses:
 
-<https://applitools.com/tutorials/selenium-javascript.html>
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) as the programming language
+* [Selenium WebDriver](https://www.selenium.dev/) for browser automation
+* [Google Chrome](https://www.google.com/chrome/downloads/) as the local browser for testing
+* [Npm](https://www.npmjs.com/) for dependency management
+* [Mocha](https://mochajs.org/) as the core test framework
+* [Applitools Eyes](https://applitools.com/platform/eyes/) for visual testing
 
-## More Information
+To run this example project, you'll need:
 
-Learn more about Applitools [Eyes](https://info.applitools.com/ucY77) and the [Ultrafast Test Cloud](https://info.applitools.com/ucY78) at [applitools.com](https://info.applitools.com/ucY76).
+1. A free [Applitools account](https://auth.applitools.com/users/register).
+2. The [NodeJS](https://nodejs.org/en/), version 12 or higher.
+3. A good JavaScript editor, such as [Visual Studio Code](https://code.visualstudio.com/).
+4. [Npm](https://www.npmjs.com/).
+5. An up-to-date version of [Google Chrome](https://www.google.com/chrome/downloads/).
+6. A corresponding version of [ChromeDriver](https://chromedriver.chromium.org/downloads).
 
-More about the Eyes Images SDK:
-* https://www.npmjs.com/package/@applitools/eyes-selenium
-* https://applitools.com/docs/api/eyes-sdk/index-gen/classindex-selenium4-javascript.html
+The main test case is [`AcmeBankTests.test.js`](https://github.com/IdosApplitools/tutorial-selenium-javascript-basic/blob/redevelop/test/example/AcmeBankTests.test.js).
+
+To execute tests, set the `APPLITOOLS_API_KEY` environment variable
+to your [account's API key](https://applitools.com/tutorials/getting-started/setting-up-your-environment.html),
+and then run:
+
+```
+npm run test
+```
+
+**For full instructions on running this project, take our
+[Selenium JavaScript tutorial](https://applitools.com/tutorials/selenium-javascript.html)!**
