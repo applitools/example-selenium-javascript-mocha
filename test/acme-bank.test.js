@@ -142,11 +142,11 @@ describe('ACME Bank', () => {
     
     afterEach(async function() {
 
-        // Quit the WebDriver instance.
-        await driver.quit();
-
         // Close Eyes to tell the server it should display the results.
         await eyes.closeAsync();
+
+        // Quit the WebDriver instance.
+        await driver.quit();
 
         // Warning: `eyes.closeAsync()` will NOT wait for visual checkpoints to complete.
         // You will need to check the Eyes Test Manager for visual results per checkpoint.
