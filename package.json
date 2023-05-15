@@ -1,7 +1,7 @@
 {
-  "name": "example-selenium-javascript-mocha-ufg",
-  "version": "2.1.0",
-  "description": "An example project for Selenium JavaScript Mocha using Applitools Ultrafast Grid",
+  "name": "example-selenium-javascript-mocha",
+  "version": "2.2.0",
+  "description": "An example project for Selenium in JavaScript with Mocha",
   "scripts": {
     "test": "mocha --no-timeouts \"test/*.test.js\""
   },
@@ -11,9 +11,9 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@applitools/eyes-selenium": "^4.61.0",
-    "mocha": "^10.1.0",
-    "selenium-webdriver": "^4.5.0"
+    "@applitools/eyes-selenium": "^4.66.0",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.9.2"
   },
   "engines": {
     "node": ">=12.13.0"
